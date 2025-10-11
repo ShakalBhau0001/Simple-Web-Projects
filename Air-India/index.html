@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Air India: Book Domestic &amp; International Non-Stop Direct Flights</title>
+        <link href='css/style.css' rel='stylesheet'>
+        <script src="js/jquery.js"></script>
+        <script>
+        $(document).ready(function() 
+        {
+            $("form").on("submit", function(event) 
+            {
+                event.preventDefault();
+                const from = $("#from").val();
+                const to = $("#to").val();
+                const date = $("#date").val();
+                if (from === "" || to === "" || date === "") 
+                {
+                    alert("Please fill in all fields.");
+                }
+                else 
+                {
+                    alert(`Searching flights from ${from} to ${to} on ${date}.`);
+                }
+            });
+          
+            $("#check button").on("click", function() 
+            {
+                alert("Starting online check-in....");
+            });
+        });
+          
+      </script>
+    </head>
+    <body>
+        <header>
+            <div id="logo"><a href="https://www.airindia.com/">
+                <img src="img/Logo.svg">
+            </a></div>
+            <nav>
+                <ul>
+                    <li><b>Home</b></a></li>
+                    <li><b>Book A Flight</b></a></li>
+                    <li><b>Check-In</b></a></li>
+                    <li><b>Contact Us</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="home">
+            <h2>Welcome to Air India</h2>
+            <p>Experience the skies with comfort and luxury. Book your flight today!</p>
+            <p>Join us as we take you to beautiful destinations,<br> whether it's the bustling cities or serene landscapes.<br> Thank you for choosing Air India</p>
+        </div>
+        
+        <div id="flight">
+            <h2>Book a Flight</h2>
+            <form>
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+                <hr>
+
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" required>
+                <hr>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <hr>
+
+                <button type="submit">Search Flights</button>
+            </form>
+        </div>
+        
+        <div id="check">
+            <h2>Check-in</h2>
+            <p>Fast and easy online check-in available 24 hours before your flight.</p>
+            <button>Start Check-in</button>
+        </div>
+        
+        <footer id="contact">
+            <h2><a href="https://www.airindia.com/in/en/contact-us.html">Contact Us</a></h2>
+            <p>Phone: +1-800-123-4567</p>
+        </footer>
+    </body>    
+</html>
