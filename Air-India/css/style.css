@@ -1,0 +1,72 @@
+#logo
+{
+   background-image: url("../img/Logo.svg"); 
+   background-position: center;
+   background-repeat: no-repeat;
+}
+body 
+{
+    background-image: url("../img/indiabg.webp");
+    background-size: cover;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: noto sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background-color: cyan;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+div 
+{
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 
+{
+    color: #001c44;
+}
+
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr
+{
+    width: 0px;
+}
+
+footer
+{
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+}
