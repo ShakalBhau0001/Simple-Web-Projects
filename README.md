@@ -88,6 +88,28 @@ A fully functional **two-player Tic Tac Toe** game built using vanilla HTML, CSS
 
 ---
 
+### ⏱️ 3. Stopwatch Web App
+A simple yet elegant **Stopwatch** web application built using **HTML**, **CSS**, and **JavaScript**.  
+It allows users to start, stop, and reset time tracking easily.
+
+#### 🔹 Features
+- Start, Stop, and Reset buttons  
+- Accurate hour-minute-second tracking  
+- Beautiful circular design  
+- Fully responsive layout  
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+#### 💻 How to Run
+1. Navigate to the `Stopwatch/` folder  
+2. Open `index.html` in any web browser  
+3. Start the timer and track time efficiently ⏰
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -99,7 +121,8 @@ No external dependencies needed — everything runs directly in the browser.
 ## 🌟 Future Enhancements
 - Add AI-based single-player mode to Tic Tac Toe  
 - Add animation effects to Air India’s homepage  
-- Improve responsiveness for mobile screens  
+- Improve responsiveness for mobile screens
+- Add Dark/Light mode & Lap Timer feature to Stopwatch
 
 ---
 
