@@ -30,6 +30,12 @@ Simple-Web-Projects/
 │   │── script.js         # Game logic
 │   └── README.md         # Documentation
 │
+├── Stopwatch/
+│   │── index.html        # Stopwatch interface
+│   │── style.css         # Stopwatch styling
+│   │── script.js         # Stopwatch functionality
+│   └── README.md         # Documentation
+│
 └── README.md              # Main repository documentation
 ```
 
