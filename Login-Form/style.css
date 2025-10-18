@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2F9CF4, #8A2BE2);
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    text-align: center;
+    color: white;
+    width: 400px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+    font-size: 38px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.input-box {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 99px;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+    font-weight: 600;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-box input:focus {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+}
+
+.remember-forget-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.remember-forget-box label {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.remember-forget-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forget-box a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 99px;
+    background: #2F9CF4;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-button:hover {
+    background: #0B87EC;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.register a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
