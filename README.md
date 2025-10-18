@@ -36,7 +36,12 @@ Simple-Web-Projects/
 │   │── script.js         # Stopwatch functionality
 │   └── README.md         # Documentation
 │
-└── README.md              # Main repository documentation
+├── Login-Form/
+│   │── index.html        # Main login form structure
+│   │── style.css         # Styling for the login form
+│   └── README.md         # Project documentation
+│
+└── README.md             # Main repository documentation
 ```
 
 ---
@@ -110,6 +115,28 @@ It allows users to start, stop, and reset time tracking easily.
 
 ---
 
+### 🔐 4. Login Form
+A modern **Login Form UI** designed with *glassmorphism effect*, smooth borders, and minimal style.  
+Perfect for learning modern CSS effects and form design.
+
+#### 🔹 Features
+- Transparent glassy background  
+- Stylish username & password inputs  
+- Remember Me & Forgot Password options  
+- Smooth transitions and hover animations  
+- Fully responsive layout  
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3 (with blur effect)**
+
+#### 💻 How to Run
+1. Open the folder `Login-Form/`
+2. Open `index.html` in your browser  
+3. Experience the modern glassmorphism login interface 💎
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -123,6 +150,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Add animation effects to Air India’s homepage  
 - Improve responsiveness for mobile screens
 - Add Dark/Light mode & Lap Timer feature to Stopwatch
+- Integrate JavaScript authentication logic to Login Form
 
 ---
 
