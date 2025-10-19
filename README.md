@@ -41,6 +41,12 @@ Simple-Web-Projects/
 │   │── style.css         # Styling for the login form
 │   └── README.md         # Project documentation
 │
+├── OTP-Generator/
+│    ├── index.html       # Main HTML file (UI + button)
+│    ├── style.css        # Styling file (button + layout)
+│    ├── script.js        # JavaScript logic (OTP generation)
+│    └── README.md        # Project documentation file
+│
 └── README.md             # Main repository documentation
 ```
 
@@ -137,6 +143,30 @@ Perfect for learning modern CSS effects and form design.
 
 ---
 
+### 🔢 5.OTP Generator
+A lightweight **OTP (One-Time Password) generator** built using **HTML**, **CSS**, and **JavaScript**.
+It instantly generates a random 4-digit OTP upon button click, perfect for practicing random number generation and UI events.
+
+#### 🔹 Features
+- Generates a 4-digit random OTP
+- Minimal, clean, and responsive design
+- Runs completely offline
+- Works in all browsers
+- Simple alert-based OTP display
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+#### 💻 How to Run
+1. Open the folder `OTP-Generator/`
+2. Run `index.html` in any modern browser
+3. Click the **"Click For OTP"** button
+4. Get your unique 4-digit OTP instantly 💥
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -151,6 +181,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Improve responsiveness for mobile screens
 - Add Dark/Light mode & Lap Timer feature to Stopwatch
 - Integrate JavaScript authentication logic to Login Form
+- Add OTP expiration timer, copy-to-clipboard, and toast notification features to OTP Generator
 
 ---
 
