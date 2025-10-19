@@ -1,4 +1,4 @@
-# ⏱️ Stopwatch Web App
+## ⏱️ Stopwatch
 
 A simple, elegant **Stopwatch** web application built using **HTML**, **CSS**, and **JavaScript**.  
 It allows users to **start**, **stop**, and **reset** the timer with a clean and modern circular design.
