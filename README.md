@@ -93,7 +93,7 @@ A fully functional **two-player Tic Tac Toe** game built using vanilla HTML, CSS
 
 ---
 
-### ⏱️ 3. Stopwatch Web App
+### ⏱️ 3. Stopwatch
 A simple yet elegant **Stopwatch** web application built using **HTML**, **CSS**, and **JavaScript**.  
 It allows users to start, stop, and reset time tracking easily.
 
