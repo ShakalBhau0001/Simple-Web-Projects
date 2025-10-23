@@ -42,12 +42,18 @@ Simple-Web-Projects/
 │   └── README.md         # Project documentation
 │
 ├── OTP-Generator/
-│    ├── index.html       # Main HTML file (UI + button)
-│    ├── style.css        # Styling file (button + layout)
-│    ├── script.js        # JavaScript logic (OTP generation)
-│    └── README.md        # Project documentation file
+│   │── index.html        # Main HTML file (UI + button)
+│   │── style.css         # Styling file (button + layout)
+│   │── script.js         # JavaScript logic (OTP generation)
+│   └── README.md         # Project documentation file
+│
+├── Simple-Sidebar/
+│   │── index.html        # Main HTML structure
+│   │── style.css         # Sidebar styling and transitions
+│   └── README.md         # Project documentation file
 │
 └── README.md             # Main repository documentation
+
 ```
 
 ---
@@ -165,6 +171,25 @@ It instantly generates a random 4-digit OTP upon button click, perfect for pract
 3. Click the **"Click For OTP"** button
 4. Get your unique 4-digit OTP instantly 💥
 
+### 📚 6. Simple Sidebar
+A clean and minimal **Sidebar Navigation** built using only **HTML** and **CSS** — without any JavaScript.
+Perfect for beginners to understand how `<details>` and `<summary>` tags can create interactive toggle menus natively.
+
+#### 🔹 Features
+- Pure HTML & CSS (no JS required)
+- Toggle open/close sidebar with animation
+- Smooth transition effects
+- Lightweight and responsive layout
+- Minimalist design for easy integration into any project
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+
+#### 💻 How to Run
+1. Open the folder `Simple-Sidebar/`
+2. Run `index.html` in any modern browser
+3. Click the hamburger icon (☰) to expand/collapse the sidebar
 ---
 
 ## ⚙️ Requirements
@@ -182,6 +207,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Add Dark/Light mode & Lap Timer feature to Stopwatch
 - Integrate JavaScript authentication logic to Login Form
 - Add OTP expiration timer, copy-to-clipboard, and toast notification features to OTP Generator
+- Simple Sidebar by adding responsive slide-in/out animations, dark mode, multi-level menu support, and active link highlighting.
 
 ---
 
