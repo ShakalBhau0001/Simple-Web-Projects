@@ -78,12 +78,6 @@ details:not([open]) {
 
 ---
 
-## 📸 Preview (Example)
-When closed ➡️ Only ☰ icon visible  
-When opened ➡️ Shows menu options (Home, About, Services, Contact)
-
----
-
 ## 🧠 Author
 **Shakal Bhau**  
 A simple and elegant demo of a responsive sidebar using only HTML & CSS.
