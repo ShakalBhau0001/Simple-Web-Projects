@@ -1,0 +1,44 @@
+details {
+    width: 220px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #f3f3f3;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+summary {
+    background: #dadada;
+    text-align: right;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.2s ease;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+details:not([open]) {
+    width: 60px;
+}
