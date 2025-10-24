@@ -171,6 +171,8 @@ It instantly generates a random 4-digit OTP upon button click, perfect for pract
 3. Click the **"Click For OTP"** button
 4. Get your unique 4-digit OTP instantly 💥
 
+---
+
 ### 📚 6. Simple Sidebar
 A clean and minimal **Sidebar Navigation** built using only **HTML** and **CSS** — without any JavaScript.
 Perfect for beginners to understand how `<details>` and `<summary>` tags can create interactive toggle menus natively.
