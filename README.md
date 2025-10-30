@@ -1,4 +1,4 @@
-# 🛫 Simple-Web-Projects
+## 🛫 Simple-Web-Projects
 
 A collection of small yet beautiful front-end web projects built using **HTML**, **CSS**, and **JavaScript**.  
 Each project is self-contained and focuses on clean UI, interactivity, and simple code logic.
@@ -47,6 +47,12 @@ Simple-Web-Projects/
 │   │── script.js         # JavaScript logic (OTP generation)
 │   └── README.md         # Project documentation file
 │
+├── Password-Generator/
+│   │── index.html        # Main UI
+│   │── style.css         # Styling & Layout
+│   │── script.js         # Password generation logic
+│   └── README.md         # Project documentation file
+│
 ├── Simple-Sidebar/
 │   │── index.html        # Main HTML structure
 │   │── style.css         # Sidebar styling and transitions
@@ -60,21 +66,21 @@ Simple-Web-Projects/
 
 ## 🧩 Projects Included
 
-### ✈️ 1. Air India Website Clone
+## ✈️ 1. Air India Website Clone
 A simple **Air India landing page** clone that captures the airline’s branding and modern design.
 
-#### 🔹 Features
+## 🔹 Features
 - Elegant responsive layout  
 - Custom background with Air India branding  
 - Interactive elements using **jQuery**  
 - Optimized image assets (SVG + WebP)
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (jQuery)**
 
-#### 🖼️ Folder Details
+## 🖼️ Folder Details
 | Folder | Description |
 |---------|--------------|
 | `css/`  | Stylesheet for UI design |
@@ -83,89 +89,89 @@ A simple **Air India landing page** clone that captures the airline’s branding
 
 ---
 
-### 🎮 2. Tic-Tac-Toe Game
+## 🎮 2. Tic-Tac-Toe Game
 A fully functional **two-player Tic Tac Toe** game built using vanilla HTML, CSS, and JS.
 
-#### 🔹 Features
+## 🔹 Features
 - Player-vs-Player gameplay (X & O)  
 - Win detection system  
 - Restart button to replay instantly  
 - Highlighted winning tiles  
 - Simple, attractive UI with smooth gameplay
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `Tic-Tac-Toe Game/`
 2. Run `index.html` in any modern browser
 3. Start playing and have fun 🎉
 
 ---
 
-### ⏱️ 3. Stopwatch
+## ⏱️ 3. Stopwatch
 A simple yet elegant **Stopwatch** web application built using **HTML**, **CSS**, and **JavaScript**.  
 It allows users to start, stop, and reset time tracking easily.
 
-#### 🔹 Features
+## 🔹 Features
 - Start, Stop, and Reset buttons  
 - Accurate hour-minute-second tracking  
 - Beautiful circular design  
 - Fully responsive layout  
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Navigate to the `Stopwatch/` folder  
 2. Open `index.html` in any web browser  
 3. Start the timer and track time efficiently ⏰
 
 ---
 
-### 🔐 4. Login Form
+## 🔐 4. Login Form
 A modern **Login Form UI** designed with *glassmorphism effect*, smooth borders, and minimal style.  
 Perfect for learning modern CSS effects and form design.
 
-#### 🔹 Features
+## 🔹 Features
 - Transparent glassy background  
 - Stylish username & password inputs  
 - Remember Me & Forgot Password options  
 - Smooth transitions and hover animations  
 - Fully responsive layout  
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3 (with blur effect)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `Login-Form/`
 2. Open `index.html` in your browser  
 3. Experience the modern glassmorphism login interface 💎
 
 ---
 
-### 🔢 5.OTP Generator
+## 🔢 5.OTP Generator
 A lightweight **OTP (One-Time Password) generator** built using **HTML**, **CSS**, and **JavaScript**.
 It instantly generates a random 4-digit OTP upon button click, perfect for practicing random number generation and UI events.
 
-#### 🔹 Features
+## 🔹 Features
 - Generates a 4-digit random OTP
 - Minimal, clean, and responsive design
 - Runs completely offline
 - Works in all browsers
 - Simple alert-based OTP display
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `OTP-Generator/`
 2. Run `index.html` in any modern browser
 3. Click the **"Click For OTP"** button
@@ -173,25 +179,49 @@ It instantly generates a random 4-digit OTP upon button click, perfect for pract
 
 ---
 
-### 📚 6. Simple Sidebar
+## 🔑 6. Password Generator
+A secure and responsive **Password Generator** app made with **HTML**, **CSS**, and **JavaScript**, 
+capable of generating strong random passwords with a single click.
+
+## 🔹 Features
+- Generates secure random passwords
+- Adjustable password length
+- Copy-to-clipboard functionality
+- Simple, elegant, and responsive UI
+- Works offline
+
+## 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+## 💻 How to Run
+1. Open the folder `Password-Generator/`
+2. Run `index.html` in any modern browser
+3. Generate a new password instantly 🔒
+
+---
+
+## 📚 7. Simple Sidebar
 A clean and minimal **Sidebar Navigation** built using only **HTML** and **CSS** — without any JavaScript.
 Perfect for beginners to understand how `<details>` and `<summary>` tags can create interactive toggle menus natively.
 
-#### 🔹 Features
+## 🔹 Features
 - Pure HTML & CSS (no JS required)
 - Toggle open/close sidebar with animation
 - Smooth transition effects
 - Lightweight and responsive layout
 - Minimalist design for easy integration into any project
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `Simple-Sidebar/`
 2. Run `index.html` in any modern browser
 3. Click the hamburger icon (☰) to expand/collapse the sidebar
+
 ---
 
 ## ⚙️ Requirements
@@ -210,6 +240,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Integrate JavaScript authentication logic to Login Form
 - Add OTP expiration timer, copy-to-clipboard, and toast notification features to OTP Generator
 - Simple Sidebar by adding responsive slide-in/out animations, dark mode, multi-level menu support, and active link highlighting.
+- Add customizable character sets and strength meter to Password Generator
 
 ---
 
