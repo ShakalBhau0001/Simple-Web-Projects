@@ -58,6 +58,11 @@ Simple-Web-Projects/
 │   │── style.css         # Sidebar styling and transitions
 │   └── README.md         # Project documentation file
 │
+├── Animated-Sidebar/
+│   │── index.html        # Main layout of the sidebar menu  
+│   │── style.css         # Styling & hover animation  
+│   └── README.md         # Project documentation
+│
 └── README.md             # Main repository documentation
 
 ```
@@ -224,6 +229,28 @@ Perfect for beginners to understand how `<details>` and `<summary>` tags can cre
 
 ---
 
+## 🌈 8. Animated Sidebar
+A sleek, modern **Animated Sidebar Menu** built using **HTML**, **CSS**, and **Boxicons**.
+It smoothly expands on hover, revealing navigation labels with a soft transition effect.
+
+## 🔹 Features
+- Smooth hover animation
+- Clean and responsive design
+- Icon-based navigation using **Boxicons**
+- Lightweight and easy to customize
+
+## 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **Boxicons**
+
+## 💻 How to Run
+1. Open the folder `Animated-Sidebar/`
+2. Run `index.html` in any modern browser
+3. Hover over the sidebar to view the animation 🎨
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -241,6 +268,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Add OTP expiration timer, copy-to-clipboard, and toast notification features to OTP Generator
 - Simple Sidebar by adding responsive slide-in/out animations, dark mode, multi-level menu support, and active link highlighting.
 - Add customizable character sets and strength meter to Password Generator
+- Add icon animation and menu click sound to Animated Sidebar
 
 ---
 
