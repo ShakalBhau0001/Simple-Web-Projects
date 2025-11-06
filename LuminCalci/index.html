@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuminCalci</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+      <i class="fas fa-moon"></i>
+    </button>
+    
+    <button class="history-toggle" id="historyToggle" title="Toggle History">
+      <i class="fas fa-history"></i>
+    </button>
+    
+    <div class="calculator-header">
+      <h1>LuminCalci</h1>
+      <p>Perform Math Operations</p>
+    </div>
+    
+    <input type="text" id="inputdata" value="0" readonly>
+    
+    <div class="container">
+      <button class="btn clear" value="C">C</button>
+      <button class="btn operator" value="/">÷</button>
+      <button class="btn operator" value="*">×</button>
+      <button class="btn operator" value="back">⌫</button>
+      
+      <button class="btn" value="7">7</button>
+      <button class="btn" value="8">8</button>
+      <button class="btn" value="9">9</button>
+      <button class="btn operator" value="-">−</button>
+      
+      <button class="btn" value="4">4</button>
+      <button class="btn" value="5">5</button>
+      <button class="btn" value="6">6</button>
+      <button class="btn operator" value="+">+</button>
+      
+      <button class="btn" value="1">1</button>
+      <button class="btn" value="2">2</button>
+      <button class="btn" value="3">3</button>
+      <button class="btn equals" value="=">=</button>
+      
+      <button class="btn zero" value="0">0</button>
+      <button class="btn" value="%">%</button>
+      <button class="btn operator" value=".">.</button>
+    </div>
+    
+    <div class="calculator-footer">
+      <p>Calculator © 2025</p>
+    </div>
+    
+    <div class="history-panel" id="historyPanel">
+      <div class="history-header">
+        <h3>Calculation History</h3>
+        <button class="clear-history" id="clearHistory" title="Clear history">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+      <div class="history-content" id="historyList">
+        <div class="history-empty">Your calculations will appear here</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
