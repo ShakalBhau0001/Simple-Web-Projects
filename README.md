@@ -63,6 +63,12 @@ Simple-Web-Projects/
 │   │── style.css         # Styling & hover animation  
 │   └── README.md         # Project documentation
 │
+├── LuminCalci/
+│   │── index.html        # Main calculator page
+│   │── style.css         # Complete UI and theme styling
+│   │── script.js         # Core calculator logic + theme/history handling
+│   └── README.md         # Project documentation
+│
 └── README.md             # Main repository documentation
 
 ```
@@ -251,6 +257,28 @@ It smoothly expands on hover, revealing navigation labels with a soft transition
 
 ---
 
+### 🧮 9. LuminCalci
+A stylish and functional **Web Calculator** named *LuminCalci*, built to perform basic arithmetic with a smooth interface, dual themes, and calculation history.
+
+#### 🔹 Features
+- Perform addition, subtraction, multiplication, and division  
+- Switch between **Light & Dark mode**  
+- Display calculation **history log**  
+- Responsive UI for all screen sizes  
+- Smooth animations and clean modern theme  
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+#### 💻 How to Run
+1. Open the folder `LuminCalci/`  
+2. Run `index.html` in any modern browser  
+3. Start calculating with style ✨  
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -269,6 +297,7 @@ No external dependencies needed — everything runs directly in the browser.
 - Simple Sidebar by adding responsive slide-in/out animations, dark mode, multi-level menu support, and active link highlighting.
 - Add customizable character sets and strength meter to Password Generator
 - Add icon animation and menu click sound to Animated Sidebar
+- LuminCalci with scientific functions, keyboard support, and local storage for history  
 
 ---
 
