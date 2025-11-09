@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #ffffffcc;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container header {
+  font-size: 2rem;
+  color: #6a11cb;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-box label {
+  color: #5c5c5c;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.input-box input,
+.select-box {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0 15px;
+  background: #faf8ff;
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus {
+  border-color: #d16ba5;
+  box-shadow: 0 0 8px rgba(209, 107, 165, 0.4);
+  background: #fff;
+}
+
+.column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.gender-box {
+  margin-top: 20px;
+}
+
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.gender-option,
+.gender {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+
+.gender {
+  column-gap: 8px;
+}
+
+.gender input {
+  accent-color: #d16ba5;
+  cursor: pointer;
+}
+
+.gender label {
+  color: #555;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.address input,
+.select-box {
+  margin-top: 15px;
+}
+
+.select-box select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #555;
+  font-size: 1rem;
+  background: transparent;
+}
+
+button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(209, 107, 165, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #c777b9, #a863d1);
+  box-shadow: 0 8px 20px rgba(209, 107, 165, 0.45);
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: #ff3e9d;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+input.error {
+  border-color: #ff3e9d;
+  box-shadow: 0 0 8px rgba(255, 62, 157, 0.3);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    flex-wrap: wrap;
+  }
+  .gender-option,
+  .gender {
+    row-gap: 10px;
+  }
+}
