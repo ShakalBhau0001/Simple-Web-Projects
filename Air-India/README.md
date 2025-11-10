@@ -35,8 +35,18 @@ Air-India/
 
 ---
 
-## 🛠️ Run Locally  
-1. Download or clone the project  
-2. Open `index.html` in your browser (Chrome, Firefox, Edge, etc.)  
+## 🚀 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   ```
+
+2. Open the folder  
+   ```bash
+   cd Air-India
+   ```
+
+3. Open **index.html** in your browser 💫  
 
 ---
