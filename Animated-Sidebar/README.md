@@ -37,10 +37,19 @@ Animated-Sidebar/
 
 ## 🚀 How to Use
 
-1.  Clone or download the project files.
-2.  Open `index.html` in any modern browser.
-3.  Hover over the sidebar to see the expansion effect.
-4.  Customize links, colors, or icons as you wish!
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   ```
+
+2. Open the folder  
+   ```bash
+   cd Animated-Sidebar
+   ```
+
+3. Open **index.html** in your browser 💫  
+4.  Hover over the sidebar to see the expansion effect.
+5.  Customize links, colors, or icons as you wish!
 
 ------------------------------------------------------------------------
 
