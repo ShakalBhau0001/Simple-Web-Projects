@@ -1,13 +1,14 @@
 ## 🛫 Simple-Web-Projects
 
-A collection of small yet beautiful front-end web projects built using **HTML**, **CSS**, and **JavaScript**.  
-Each project is self-contained and focuses on clean UI, interactivity, and simple code logic.
+A collection of small yet beautiful **frontend web projects** built using **HTML**, **CSS**, and **JavaScript**.  
+Each project is self-contained and focuses on **clean UI**, **interactivity**, and **simple logic** — perfect for beginners and intermediate learners!
 
 ---
 
 ## 📁 Project Structure
+
 ```
-Simple-Web-Projects/
+SSimple-Web-Projects/
 │
 ├── Air-India/
 │   │── index.html
@@ -67,6 +68,12 @@ Simple-Web-Projects/
 │   │── index.html        # Main calculator page
 │   │── style.css         # Complete UI and theme styling
 │   │── script.js         # Core calculator logic + theme/history handling
+│   └── README.md         # Project documentation
+│
+├── Registration-Form/
+│   │── index.html        # Main HTML file
+│   │── style.css         # All styling
+│   │── script.js         # Email & phone validation logic
 │   └── README.md         # Project documentation
 │
 └── README.md             # Main repository documentation
@@ -279,6 +286,29 @@ A stylish and functional **Web Calculator** named *LuminCalci*, built to perform
 
 ---
 
+### 🧾 10. Registration Form
+A stylish and responsive Registration Form project made using **HTML**, **CSS**, and **JavaScript**,
+designed for validating user inputs like email and phone number in real-time.
+
+#### 🔹 Features
+- Email & phone number validation using JavaScript
+- Clean and user-friendly layout
+- Fully responsive form
+- Input error highlighting
+- Modern UI with smooth focus effects
+
+#### 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+#### 💻 How to Run
+1. Open the folder `Registration-Form/`  
+2. Run `index.html` in any modern browser  
+3. Try entering your details — it validates instantly ✅
+
+---
+
 ## ⚙️ Requirements
 No external dependencies needed — everything runs directly in the browser.
 
@@ -297,7 +327,8 @@ No external dependencies needed — everything runs directly in the browser.
 - Simple Sidebar by adding responsive slide-in/out animations, dark mode, multi-level menu support, and active link highlighting.
 - Add customizable character sets and strength meter to Password Generator
 - Add icon animation and menu click sound to Animated Sidebar
-- LuminCalci with scientific functions, keyboard support, and local storage for history  
+- LuminCalci with scientific functions, keyboard support, and local storage for history
+- Add password strength meter, confirm password toggle and local storage support for user progress. 💖
 
 ---
 
