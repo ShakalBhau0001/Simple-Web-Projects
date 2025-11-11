@@ -72,9 +72,17 @@ details:not([open]) {
 ---
 
 ## 🚀 How to Run
-1. Download or clone the repository.  
-2. Open `index.html` in any browser.  
-3. Click on the ☰ icon to open or close the sidebar.  
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   ```
+
+2. Open the folder  
+   ```bash
+   cd Simple-Sidebar
+   ```
+3. Open **index.html** in your browser 💫
+4. Click on the ☰ icon to open or close the sidebar.  
 
 ---
 
