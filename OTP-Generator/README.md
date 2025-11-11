@@ -30,6 +30,7 @@ OTP-Generator/
 1. Download or clone this repository:
    ```bash
    git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   cd OTP-Generator
    ```
 2. Open the folder in your favorite code editor.
 3. Run **index.html** in any browser.
