@@ -12,6 +12,7 @@ Login-Form/
 ├── index.html        # Main login form structure
 ├── style.css         # Styling for the login form
 └── README.md         # Project documentation
+
 ```
 
 ---
@@ -39,9 +40,14 @@ Login-Form/
    ```bash
    git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
    ```
-2. Open the folder in any code editor (VS Code recommended)  
-3. Open `index.html` in your browser  
-4. Enjoy your stunning login form ✨  
+2. Navigate to the project folder:
+   ```bash
+   cd Login-Form
+   ```
+
+3. Open the folder in any code editor (VS Code recommended)  
+4. Open `index.html` in your browser  
+5. Enjoy your stunning login form ✨  
 
 ---
 
@@ -57,8 +63,8 @@ If you face an issue with the blur effect (`backdrop-filter`):
 ---
 
 ## ❤️ Author
-**Developed by:** [Shakal Bhau 💖]  
-**GitHub:** [github.com/ShakalBhau0001](https://github.com/ShakalBhau0001)
+**Developed by:** [**Shakal Bhau 💖**]  
+**GitHub:** [**ShakalBhau0001**](https://github.com/ShakalBhau0001)
 
 ---
 
