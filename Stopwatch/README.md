@@ -33,6 +33,7 @@ Stopwatch/
 1. Download or clone the repository  
    ```bash
    https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   cd Stopwatch
    ```
 
 2. Open the folder in your code editor (VS Code recommended)
