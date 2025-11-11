@@ -69,14 +69,12 @@ and a random character is picked for each position in the password.
 
     ``` bash
     git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+    cd Password-Generator
     ```
 
 2.  Open **index.html** in any modern browser.
-
 3.  Choose your options and click **Generate**.
-
 4.  Click **Copy** to save the password.
-
 5.  Sit back --- it auto-generates every 10 seconds ⏱️
 
 ------------------------------------------------------------------------
