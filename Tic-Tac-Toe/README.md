@@ -28,9 +28,18 @@ Tic-Tac-Toe Game/
 ---
 
 ## 🛠️ How to Run  
-1. Download or clone the project  
-2. Open `index.html` in your browser  
-3. Start playing Tic Tac Toe with a friend 🎉  
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/ShakalBhau0001/Simple-Web-Projects.git
+   ```
+
+2. Open the folder  
+   ```bash
+   cd Tic-Tac-Toe Game
+   ```
+
+3. Open **index.html** in your browser 💫  
+4. Start playing Tic Tac Toe with a friend 🎉  
 
 ---
 
