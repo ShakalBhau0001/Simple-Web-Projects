@@ -108,8 +108,11 @@ Do not use copyrighted assets (like sounds or images) without permission.
 ---
 
 ## 🧑‍💻 Author
+
 **Developed by:** [Shakal Bhau ❤️]  
+
 **GitHub:** [github.com/ShakalBhau0001](https://github.com/ShakalBhau0001)
+
 💻 Built with ❤️ using **HTML** + **CSS** + **JavaScript**
 
 ---
