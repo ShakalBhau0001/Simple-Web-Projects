@@ -8,7 +8,7 @@ Each project is self-contained and focuses on **clean UI**, **interactivity**, a
 ## 📁 Project Structure
 
 ```
-SSimple-Web-Projects/
+Simple-Web-Projects/
 │
 ├── Air-India/
 │   │── index.html
