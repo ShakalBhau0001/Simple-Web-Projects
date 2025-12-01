@@ -21,6 +21,7 @@ This version features a **plain green background**, **score tracking**, **high s
 ```
 Snake/
 │
+│── index.html           # Main HTML file
 │
 ├── css/
 │   └── style.css        # Game styling
@@ -31,11 +32,9 @@ Snake/
 │   ├── gameover.mp3
 │   ├── move.mp3
 │   └── music.mp3
-├── index.html           # Main HTML file
 └── README.md            # Project documentation
 
 ```
-
 
 ---
 
