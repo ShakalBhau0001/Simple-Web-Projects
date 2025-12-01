@@ -76,6 +76,23 @@ Simple-Web-Projects/
 │   │── script.js         # Email & phone validation logic
 │   └── README.md         # Project documentation
 │
+├── Snake/
+│   │── index.html        # Main HTML file
+│   │
+│   ├── css/
+│   │   └── style.css     # Game styling
+│   │
+│   ├── js/
+│   │   └── index.js      # Game logic
+│   │
+│   ├── music/            # Optional sound effects
+│   │   ├── food.mp3
+│   │   ├── gameover.mp3
+│   │   ├── move.mp3
+│   │   └── music.mp3
+│   │
+│   └── README.md         # Project documentation
+│
 └── README.md             # Main repository documentation
 
 ```
@@ -264,48 +281,82 @@ It smoothly expands on hover, revealing navigation labels with a soft transition
 
 ---
 
-### 🧮 9. LuminCalci
+## 🧮 9. LuminCalci
 A stylish and functional **Web Calculator** named *LuminCalci*, built to perform basic arithmetic with a smooth interface, dual themes, and calculation history.
 
-#### 🔹 Features
+## 🔹 Features
 - Perform addition, subtraction, multiplication, and division  
 - Switch between **Light & Dark mode**  
 - Display calculation **history log**  
 - Responsive UI for all screen sizes  
 - Smooth animations and clean modern theme  
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `LuminCalci/`  
 2. Run `index.html` in any modern browser  
 3. Start calculating with style ✨  
 
 ---
 
-### 🧾 10. Registration Form
+## 🧾 10. Registration Form
 A stylish and responsive Registration Form project made using **HTML**, **CSS**, and **JavaScript**,
 designed for validating user inputs like email and phone number in real-time.
 
-#### 🔹 Features
+## 🔹 Features
 - Email & phone number validation using JavaScript
 - Clean and user-friendly layout
 - Fully responsive form
 - Input error highlighting
 - Modern UI with smooth focus effects
 
-#### 🧱 Tech Stack
+## 🧱 Tech Stack
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
 
-#### 💻 How to Run
+## 💻 How to Run
 1. Open the folder `Registration-Form/`  
 2. Run `index.html` in any modern browser  
 3. Try entering your details — it validates instantly ✅
+
+---
+
+## 🐍 11. Snake Game
+A classic **Snake Game** recreated using **HTML**, **CSS**, and **JavaScript** — featuring smooth movement, food consumption, scoring, and sound effects.
+Perfect mini-project to understand keyboard events, game loops, and collision logic.
+
+## 🔹 Features
+- Smooth snake movement using arrow keys
+- Food generation with scoring system
+- Game-over detection
+- Sound effects: move, food, background music & game-over
+- Simple grid-based gameplay
+- Fully responsive and lightweight
+
+## 🧱 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+## 🖼️ Folder Details
+| Folder/File     | Description                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| `css/style.css` | Game board styling, grid layout, and snake/food visuals               |
+| `js/index.js`   | Complete game logic (snake movement, food spawn, collisions, scoring) |
+| `music/`        | Sound effects for food, movement, background music, and game over     |
+| `index.html`    | Main game interface                                                   |
+
+
+## 💻 How to Run
+1. Open the folder `Snake/`  
+2. Run `index.html` in any modern browser
+3. Use **Arrow Keys** to move the snake
+4. Eat food, grow longer, and try not to collide! 🎯
 
 ---
 
@@ -328,7 +379,8 @@ No external dependencies needed — everything runs directly in the browser.
 - Add customizable character sets and strength meter to Password Generator
 - Add icon animation and menu click sound to Animated Sidebar
 - LuminCalci with scientific functions, keyboard support, and local storage for history
-- Add password strength meter, confirm password toggle and local storage support for user progress. 💖
+- Add password strength meter, confirm password toggle and local storage support for user progress.
+- Add speed levels, obstacle support, and local storage high-score tracking to the Snake game.
 
 ---
 
