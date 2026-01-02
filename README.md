@@ -385,5 +385,9 @@ No external dependencies needed — everything runs directly in the browser.
 ---
 
 ## 🧑‍💻 Author
-**Developed by:** **Shakal Bhau** 
-**GitHub:** [github.com/ShakalBhau0001](https://github.com/ShakalBhau0001)
+
+> **Developer:** **ShakalBhau0001** 
+
+> **GitHub:** **[ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
