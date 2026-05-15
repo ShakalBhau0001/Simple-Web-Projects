@@ -391,3 +391,9 @@ No external dependencies needed — everything runs directly in the browser.
 > **GitHub:** **[ShakalBhau0001](https://github.com/ShakalBhau0001)**
 
 ---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
